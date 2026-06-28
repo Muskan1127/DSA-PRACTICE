@@ -2,13 +2,15 @@
 using namespace std;
 
 int main() {
-    int n = 27;
-    int count = 1;
+    int num[] = {22,43,65,43,77,90,54,93};
+    int size = 8;
 
-    while (count<=n)
-{
-    cout <<"Count is :"<<count<<endl;
-    count++;
-}   
+    int smallest = INT_MAX;
+
+    for(int i=0; i<size ;i++){
+        smallest = min (smallest , num[i]);
+    }
+    cout<<smallest;
+    
 return 0;
 }
