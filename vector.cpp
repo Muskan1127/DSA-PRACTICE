@@ -5,12 +5,15 @@ using namespace std;
 int main() {
     vector<int> vec;
 
-    cout << "size : " << vec.size() << endl; //size returns the number of elements in the vector
-
     vec.push_back(1); //push_back adds an element to the end of the vector
     vec.push_back(5); 
     vec.push_back(10);
     vec.push_back(20);
+    vec.push_back(30);
+
+    cout << "size : " << vec.size() << endl; //size returns the number of elements in the vector
+
+    cout<<"Capacity : " << vec.capacity() << endl; //capacity returns the size of the storage space currently allocated for the vector
 
     cout << "After push_back size : " << vec.size() << endl;
 
