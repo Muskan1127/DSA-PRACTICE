@@ -18,7 +18,7 @@ int majorityElement(vector<int>& nums) {
 }
 
 int main() {
-    vector<int> nums = {3, 2, 3,2,2,2,3,3,2,3,2,2,3,3,2,3,2,3,2,3,2,2,3,3,3,3,2,2,2,2,3,3,2,3,3,2,2,};
+    vector<int> nums = {3, 2, 3,2,2,2,3,3,2,3,2,2,3,3,2,3,2,3,2,3,2,2,3,3,3,3,2,2,2,2,3,3,2,3,3,2,2,3,3,3,3,3,3,3,3,3,3};
     cout << "The majority element is: " << majorityElement(nums) << endl;
     return 0;
 }
